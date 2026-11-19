@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "name": "Test 19/11 — TEST",
+  "about": "A test copy of Test 19/11 on Bitcoin's test network, for practising with test money. Nothing here is real.",
+  "site": "https://jimbus9.github.io/test-19-11/",
+  "disclaimer": "TEST ONLY. Test bitcoin has no value. Joining here does not make you a member of the real one.",
+  "declaration": {
+    "title": "TO TEST — test copy",
+    "version": 1,
+    "file": "test/declaration.txt",
+    "sha256": "b87e20426d30e8633d229bc665e0fdccaa5d50af778ea405ffe3f4625c2d7bb8"
+  },
+  "network": "testnet4",
+  "unit": "BTC",
+  "lock_lengths_years": [
+    0.00011407711613050422,
+    0.0027378507871321013,
+    1
+  ],
+  "minimum_counted_lock_sats": 10000,
+  "cosigner_keys": [
+    "02b8d1c5999db95b47490fef2aee2b1c36ea0bc28b362e9f2f8e495d5fb7c7fd99"
+  ],
+  "cosigner_xpubs": [
+    "xpub6CnA7SmCBjhamSPkw1EWmDaDofrVCLTDvNSB1Cp9UVUizFqnMoWGimZorYVyLoL5u1siHEqrqdke3m4xMTh4p25qVjJ6FJQejXZiFWCfD4X"
+  ],
+  "gathering_window_max_days": 28,
+  "settlement_window_max_days": 14,
+  "destination_wait_days": 0,
+  "attestor_keys": [],
+  "attestor_threshold": 1,
+  "max_commitment_fee": 0.01,
+  "register": {
+    "registrations": "test/registrations.json",
+    "destinations": "test/destinations.json"
+  },
+  "chain_api": "https://mempool.space/testnet4/api",
+  "relays": [
+    "wss://relay.damus.io",
+    "wss://nos.lol",
+    "wss://relay.primal.net",
+    "wss://nostr.mom",
+    "wss://offchain.pub"
+  ],
+  "spare_relays": [
+    "wss://relay.snort.social",
+    "wss://nostr-pub.wellorder.net",
+    "wss://relay.nostr.bg"
+  ]
+}
